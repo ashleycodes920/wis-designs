@@ -1,2 +1,2 @@
-# wis_designs
+# wis-designs
 An educational synthesizer website
