@@ -18,5 +18,6 @@
   "homepage": "https://github.com/ashleycodes920/wis_designs#readme",
   "dependencies": {
     "express": "^4.18.1"
-  }
+  },
+  "keywords": []
 }
