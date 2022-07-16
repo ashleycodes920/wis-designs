@@ -223,8 +223,19 @@
 				<section id="cta">
 					<h2>Sign up to receive future emails!</h2>
 					<!-- <p>Blandit varius ut praesent nascetur eu penatibus nisi risus faucibus nunc.</p> -->
-
-					<form>
+					<form action="https://formspree.io/f/{form_id}" method="post">
+						<div class="row gtr-50 gtr-uniform">
+							<div class="col-8 col-12-mobilep">
+						<input for="email" type="email" name="email" id="email" placeholder="Email Address" />
+					</div>
+					<div class="col-4 col-12-mobilep">
+						<!-- <button type="submit">Submit</button> -->
+						<input type="submit" value="Sign Up" class="fit" />
+							</div>
+						</div>
+					</form>
+					
+					<!-- <form>
 						<div class="row gtr-50 gtr-uniform">
 							<div class="col-8 col-12-mobilep">
 								<input type="email" name="email" id="email" placeholder="Email Address" />
@@ -233,7 +244,7 @@
 								<input type="submit" value="Sign Up" class="fit" />
 							</div>
 						</div>
-					</form>
+					</form> -->
 
 				</section>
 
